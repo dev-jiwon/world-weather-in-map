@@ -1,0 +1,16 @@
+PODS:
+  - Colorify (1.2)
+
+DEPENDENCIES:
+  - Colorify (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Colorify
+
+SPEC CHECKSUMS:
+  Colorify: 9bfa160a80d8c66e31c99aa691a1446c41221801
+
+PODFILE CHECKSUM: 10ed51d2bf32d77ce4c44851fc80bd26ae7b1587
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rDE-yP-fdj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SGB-Nb-yYr">
+            <objects>
+                <viewController id="rDE-yP-fdj" customClass="ViewController" customModule="WorldTour" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zod-v3-cXy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="6ZE-Oi-aMX"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Eh6-KQ-VTn" appends="YES" id="yO6-gv-iz3"/>
+                            <outletCollection property="gestureRecognizers" destination="9zl-tx-MHD" appends="YES" id="3MW-Ez-PC4"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OYh-t9-JlF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="Eh6-KQ-VTn">
+                    <connections>
+                        <action selector="swipeDown:" destination="rDE-yP-fdj" id="4jO-Xs-edW"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="9zl-tx-MHD">
+                    <connections>
+                        <action selector="swipeUp:" destination="rDE-yP-fdj" id="nP7-dq-ghs"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2272.8000000000002" y="-4253.5232383808097"/>
+        </scene>
+    </scenes>
+</document>
